@@ -1,0 +1,62 @@
+.side-bar {
+  background-color: white;
+
+  position: fixed;
+  top: 54px;
+  bottom: 0;
+  left: 0;
+  width: 220px;
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+.side-bar img {
+  width: 30px;
+}
+
+.side-bar div {
+  display: flex;
+  width: 200px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  padding-left: 10px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.side-bar div:hover {
+  background-color: rgb(219, 219, 219);
+}
+
+.side-bar p {
+  margin-left: 15px;
+  font-family: roboto,arial;
+  font-size: 14px;
+}
+
+
+.side-bar .subcription-topic {
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.subcription-channel {
+  display: flex;
+  align-items: center;
+}
+.subcription-channel img {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.subcription-channel p {
+  font-size: 13px;
+}
